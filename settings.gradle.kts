@@ -1,1 +1,1 @@
-rootProject.name = "S7Project-Skribbl"
+rootProject.name = "Drawio"

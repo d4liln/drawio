@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "fr.polytech.wid"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -46,16 +46,16 @@ tasks.withType<Test> {
 }
 
 jlink {
-    imageZip.set(layout.buildDirectory.file("distributions/SkribblApp-${javafx.platform.classifier}.zip"))
+    imageZip.set(layout.buildDirectory.file("distributions/Drawio-${javafx.platform.classifier}.zip"))
 
     options.set(listOf("--strip-debug", "--compress", "2", "--no-header-files", "--no-man-pages"))
 
     launcher {
-        name = "SkribblClient"
+        name = "DrawioClient"
     }
 
     secondaryLauncher {
-        name = "SkribblServer"
+        name = "DrawioServer"
         val launcherData = this as org.beryx.jlink.data.SecondaryLauncherData
         launcherData.mainClass = "fr.polytech.wid.s7projectskribbl.server.Main"
         launcherData.moduleName = "fr.polytech.wid.s7projectskribbl"
