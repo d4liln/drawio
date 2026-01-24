@@ -1,5 +1,3 @@
-# 🎨 Drawio - Multiplayer Drawing Game
-
 <div align="center">
   <img src="images/drawio.png" alt="Logo" width="200" height="200">
 
@@ -81,10 +79,10 @@ The game relies on a robust **Server-Authoritative** architecture using TCP sock
 * **(Optional)** JDK 21 installed if you want to develop (the `jlink` build includes its own runtime).
 
 ### 1. Clone the project
-@@@bash
+```bash
 git clone [https://github.com/votre-compte/projects7-skribbl.git](https://github.com/votre-compte/projects7-skribbl.git)
 cd projects7-skribbl
-@@@
+```
 
 ### 2. Compile the project (Generate Executables)
 
