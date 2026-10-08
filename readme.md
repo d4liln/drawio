@@ -80,7 +80,7 @@ The game relies on a robust **Server-Authoritative** architecture using TCP sock
 
 ### 1. Clone the project
 ```bash
-git clone [https://github.com/votre-compte/projects7-skribbl.git](https://github.com/votre-compte/projects7-skribbl.git)
+git clone https://github.com/d4liln/drawio.git
 cd projects7-skribbl
 ```
 
